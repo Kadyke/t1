@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9166c9a-ab5c-46f6-bed6-f50faa7b0b59" name="Changes" comment="" />
+    <list default="true" id="b9166c9a-ab5c-46f6-bed6-f50faa7b0b59" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/test/t1/service/ServiceT1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/test/t1/service/ServiceT1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/test/t1/T1Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/test/t1/T1Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/test/t1/T1Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/test/t1/T1Tests.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +25,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -36,7 +53,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Dmitry/IdeaProjects/t1",
+    "last_opened_file_path": "C:/Users/Dmitry/IdeaProjects/t1/src/test",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -44,7 +61,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dmitry\IdeaProjects\t1\src\test" />
       <recent name="C:\Users\Dmitry\IdeaProjects\t1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dmitry\IdeaProjects\t1\src\test\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ru.test.t1.controller" />
@@ -79,22 +100,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T1Tests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="t1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.test.t1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.test.t1" />
-      <option name="MAIN_CLASS_NAME" value="ru.test.t1.T1Tests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="T1Tests.testCountCharacter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="t1" />
       <extension name="coverage">
@@ -111,12 +116,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="T1Tests.testStress100kCharacter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="t1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.test.t1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.test.t1" />
+      <option name="MAIN_CLASS_NAME" value="ru.test.t1.T1Tests" />
+      <option name="METHOD_NAME" value="testStress100kCharacter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T1Tests.testStressOver800kCharacters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="t1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.test.t1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.test.t1" />
+      <option name="MAIN_CLASS_NAME" value="ru.test.t1.T1Tests" />
+      <option name="METHOD_NAME" value="testStressOver800kCharacters" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.T1Tests" />
+        <item itemvalue="JUnit.T1Tests.testStressOver800kCharacters" />
+        <item itemvalue="JUnit.T1Tests.testStress100kCharacter" />
         <item itemvalue="Application.T1" />
         <item itemvalue="JUnit.T1Tests.testCountCharacter" />
-        <item itemvalue="JUnit.T1Tests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -131,8 +169,19 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/t1$T1Tests.ic" NAME="T1Tests Coverage Results" MODIFIED="1697356164468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/t1$T1Tests.ic" NAME="T1Tests Coverage Results" MODIFIED="1697373454251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ru.test.t1.*</FILTER>
     </SUITE>
   </component>
